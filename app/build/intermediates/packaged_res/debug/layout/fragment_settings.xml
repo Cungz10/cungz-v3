@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/settings_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚙️ Pengaturan"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔗 Koneksi"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:paddingTop="8dp"/>
+        <Switch
+            android:id="@+id/settings_bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth ESP32"
+            android:textColor="@color/text_primary"/>
+        <Switch
+            android:id="@+id/settings_auto_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Auto-connect"
+            android:textColor="@color/text_primary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔊 Audio"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:paddingTop="8dp"/>
+        <Switch
+            android:id="@+id/settings_voice_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voice Navigation"
+            android:textColor="@color/text_primary"/>
+        <Switch
+            android:id="@+id/settings_voice_response"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI Voice Response"
+            android:textColor="@color/text_primary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎨 Tampilan"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:paddingTop="8dp"/>
+        <Switch
+            android:id="@+id/settings_dark_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dark Mode"
+            android:textColor="@color/text_primary"/>
+        <Switch
+            android:id="@+id/settings_animations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Animasi"
+            android:textColor="@color/text_primary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ℹ️ Info Aplikasi"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:id="@+id/settings_app_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CUNGZ v2 - Navigation &amp; AI Assistant\n© 2025 All rights reserved"
+            android:textColor="@color/text_secondary"
+            android:paddingTop="4dp"/>
+    </LinearLayout>
+</ScrollView>

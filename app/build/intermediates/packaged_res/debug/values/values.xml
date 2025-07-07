@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#667EEA</color>
+    <color name="accent_orange">#F97316</color>
+    <color name="accent_pink">#EC4899</color>
+    <color name="background_dark">#1A1A2E</color>
+    <color name="background_darker">#0F0F23</color>
+    <color name="black">#FF000000</color>
+    <color name="error_red">#EF4444</color>
+    <color name="primary_purple">#8B5CF6</color>
+    <color name="primary_purple_dark">#7C3AED</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="secondary_purple">#A855F7</color>
+    <color name="success_green">#10B981</color>
+    <color name="surface_dark">#16213E</color>
+    <color name="surface_light">#1E1E3F</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#A0A0A0</color>
+    <color name="warning_yellow">#F59E0B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="ai_input_hint">Tanya apa aja… 💬</string>
+    <string name="ai_thinking">AI lagi mikir…</string>
+    <string name="ai_welcome">Halo! Gue AI assistant CUNGZ v2 nih 🤖✨\nMau tanya apa? Bisa bantuin soal navigasi, info cuaca, atau apapun yang lo butuhin!</string>
+    <string name="app_name">CUNGZ v2</string>
+    <string name="app_subtitle">Navigation &amp; AI Assistant</string>
+    <string name="bluetooth_connected">Bluetooth ESP32 connected! 🎉</string>
+    <string name="bluetooth_connecting">Menghubungkan ke ESP32…</string>
+    <string name="bluetooth_disconnected">Bluetooth disconnected 📱</string>
+    <string name="bluetooth_failed">Gagal menghubungkan Bluetooth</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">Error</string>
+    <string name="gps_error">Gabisa dapet lokasi nih 😅 Coba aktifin GPS dulu ya!</string>
+    <string name="gps_not_available">Browser lo ga support GPS nih 📱</string>
+    <string name="history_clear">🗑️ Hapus Semua Riwayat</string>
+    <string name="history_empty">Belum ada riwayat aktivitas</string>
+    <string name="history_title">📋 Riwayat Aktivitas</string>
+    <string name="loading">Loading…</string>
+    <string name="maps_current_location">📍 Lokasi Saya</string>
+    <string name="maps_distance">Jarak:</string>
+    <string name="maps_find_route">🚀 Cari Rute</string>
+    <string name="maps_route_info">📍 Rute Navigasi</string>
+    <string name="maps_search_hint">Mau ke mana nih? 🎯</string>
+    <string name="maps_start_navigation">🧭 Mulai Navigasi</string>
+    <string name="maps_time">Waktu:</string>
+    <string name="nav_ai">AI Chat</string>
+    <string name="nav_history">History</string>
+    <string name="nav_maps">Maps</string>
+    <string name="nav_settings">Settings</string>
+    <string name="navigation_started">🧭 Navigasi dimulai! Instruksi akan dikirim ke ESP32 secara real-time.</string>
+    <string name="no">Tidak</string>
+    <string name="no_destination">Eh, tujuannya mana? 🤔</string>
+    <string name="no_route">Belum ada rute yang dipilih! 🗺️</string>
+    <string name="ok">OK</string>
+    <string name="permission_bluetooth_rationale">CUNGZ butuh akses Bluetooth untuk koneksi ESP32</string>
+    <string name="permission_location_rationale">CUNGZ butuh akses lokasi untuk navigasi GPS</string>
+    <string name="permission_microphone_rationale">CUNGZ butuh akses mikrofon untuk voice assistant</string>
+    <string name="settings_animations">Animasi</string>
+    <string name="settings_app_info">ℹ️ Info Aplikasi</string>
+    <string name="settings_audio">🔊 Audio</string>
+    <string name="settings_auto_connect">Auto-connect</string>
+    <string name="settings_bluetooth">Bluetooth ESP32</string>
+    <string name="settings_connection">🔗 Koneksi</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_display">🎨 Tampilan</string>
+    <string name="settings_voice_nav">Voice Navigation</string>
+    <string name="settings_voice_response">AI Voice Response</string>
+    <string name="success">Success</string>
+    <string name="today">Hari ini</string>
+    <string name="yes">Ya</string>
+    <string name="yesterday">Kemarin</string>
+    <style name="Theme.CUNGZv2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_purple</item>
+        <item name="colorPrimaryVariant">@color/primary_purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/accent_blue</item>
+        <item name="colorSecondaryVariant">@color/accent_pink</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/background_darker</item>
+        
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+</resources>

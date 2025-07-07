@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/activity_main.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/item_chat_message.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/item_chat_message.xml"
+    },
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/fragment_settings.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/fragment_maps.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/fragment_maps.xml"
+    },
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/item_history.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/item_chat_user.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/item_chat_loading.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/item_chat_loading.xml"
+    },
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/item_chat_ai.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/item_chat_ai.xml"
+    },
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/fragment_history.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.cungz.v2.app-mergeDebugResources-76:/layout/fragment_ai.xml",
+        "source": "com.cungz.v2.app-main-79:/layout/fragment_ai.xml"
+    }
+]
